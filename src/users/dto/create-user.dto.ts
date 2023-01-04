@@ -13,7 +13,7 @@ export const UserSchema = Joi.object({
     allowUnknown :  true
     // when allowUnknown : true defaults allows object unknown key ignored 
   });
-
+      
 
   export class UserSchemaLogin = Joi.object({
     email: Joi.string().required().min(10).max(100).pattern(new RegExp('^[a-zA-Z0-9]{3,30}$')),
