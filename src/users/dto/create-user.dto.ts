@@ -23,4 +23,4 @@ export const UserSchema = Joi.object({
     // result errors firts . instead of error all
     allowUnknown :  true
     // when allowUnknown : true defaults allows object unknown key ignored 
-  });
+  });    
